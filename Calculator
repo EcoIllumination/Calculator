@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<link href="CSS_Stylesheet1.css" rel="stylesheet">
+<body>
+<header>
+    <h1> Lightbulb Calculator </h1>
+
+</header>
+
+  <h3> Fill In the fields below to get an estimate <br> for how much money you can save by switching lightbulbs</h3>
+
+  <form> 
+    <label for="Luminage" id="LuminageLabel">Enter Luminage (In Lumens) </label>
+    <input type= "text" id = "LuminageForm" name="Luminage"> <br>
+    <label for="Wattage" id="WattageLabel"> Enter Wattage (In Watts) </label>
+    <input type="text" id="WattageForm" name="wattage"> <br>
+    <label for="Lifespan" id="LifespanLabel"> Enter Average Lifespan (In Hours of Use)</label>
+    <input type= "text" id="LifespanForm" name="Lifespan">
+    <label for="cost" id="CostLabel"> Enter Cost of Lightbulb (in USD)</label>
+    <input type="text" id="CostForm" name="cost">
+
+    <input type="submit" id="Submit" value="Submit">
+
+    <a id = "link" href = "Tester "> Back to Main Page </a>
+  </form>
+</body>
